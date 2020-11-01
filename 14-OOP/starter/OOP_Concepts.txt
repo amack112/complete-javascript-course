@@ -1,0 +1,33 @@
+OOP: A programming paradigm based on the concept of objects.
+Paradigm means style of code, "how" we write and organize code
+
+Objects mode real world or abstract features.
+
+In OOP are self-contained pieces/blocks of code, almost like small applications within themselves.
+
+Interactions happen through a public interface(API): methods that the code outside of the object can access and use to communicate with the object.
+
+Created to avoid spaghetti code!
+
+Classical OOP:
+
+Classes: A blueprint from which we can create new objects.
+
+Instances are real object that we can use in our code which was created from a class and the class itself is not ab object.
+
+Good Class Implementation:
+
+Abstraction: Ignoring or hiding details that don't matter, allowing us to get an overview perspective of the things we are implementing, instead of messing with details that don't really matter to our implementation.
+
+Encapsulation: Keeping properties and methods private inside a class, so they are not accessible outside of the class. Some methods can be exposed as a public interface (API).
+It prevents external code from accidentally manipulation internal states/properties. 
+
+< State: An object's data >
+
+Inheritance: Makes all properties and methods of a certain class available to a child class, forming a hierarchal relationship between the classes. This allows us to re-use common logic and to model real-world relationships.
+
+Child classes can have their own methods or properties.
+
+Polymorphism: A child class can overwrite a method it inherited from a parent class.
+
+
